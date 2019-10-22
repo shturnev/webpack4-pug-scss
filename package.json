@@ -1,0 +1,29 @@
+{
+  "name": "webpack4-pug-scss",
+  "version": "1.0.0",
+  "description": "Webpack4-pug-scss template boilerplate by sergey shturnev!",
+  "scripts": {
+    "_dev": "rm -rf dist && webpack --mode=development -w",
+    "build": "rm -rf dist && webpack --mode=production",
+    "dev": "rm -rf dist && webpack-dev-server --inline --host 0.0.0.0"
+  },
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "pug": "^2.0.4",
+    "pug-html-loader": "^1.1.5",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "author": "Sergey Shturnev",
+  "license": "MIT"
+}
